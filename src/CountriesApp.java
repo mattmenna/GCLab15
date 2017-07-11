@@ -15,6 +15,7 @@ public class CountriesApp {
 
 
         boolean cont = true;
+
         while (cont) {
             //System.out.println("1 - See the list of countries\n2 - Add a country\n3 - Exit");
             CountriesTextFile.switchMenu(validator);
