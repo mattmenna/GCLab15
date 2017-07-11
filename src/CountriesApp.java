@@ -14,14 +14,12 @@ public class CountriesApp {
 
         try {
             //if the test.txt file does not exist FileWriter will create it
-            FileWriter writer = new FileWriter("test.txt");
+            FileWriter writer = new FileWriter("countries.txt");
 
         } catch (IOException e) {
             e.printStackTrace();
         }
         System.out.println("Welcome to the Countries Maintenance Application");
-
-
 
         File f = new File("test.txt");
 
